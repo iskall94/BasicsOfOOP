@@ -29,7 +29,7 @@ namespace BasicsOfOOP
 
             // Here is a new RightTriangle object, with height and width as inputs.
             RightTriangle triangle1 = new RightTriangle(5, 6);
-            Console.WriteLine($"Triangelns höjd är 5 och basen är 6.");
+            Console.WriteLine("Triangelns höjd är 5 och basen är 6.");
             Console.WriteLine($"Hypotenusans längd = {triangle1.GetTriangleHypotenuse()}");
             Console.WriteLine($"Triangelns omkrets: {triangle1.GetTrianglePerimeter()}");
             Console.WriteLine($"Triangelns area: {triangle1.GetTriangleArea()}");
